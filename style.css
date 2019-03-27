@@ -1,0 +1,83 @@
+/*
+Theme Name: Simple Pfolio
+Theme URI: https://ghostbear.digital/wordpress/simple-pfolio/
+Description: A theme meant for simple portfolio sites.
+Version: 1.0
+Tags: light, two-columns, right-sidebar, fixed-width, threaded-comments, translation-ready, custom-menu, editor-style
+Author: Ian Heath
+Author URI: https://ghostbear.digital
+
+    This theme was created based on a portfolio theme from the book Smashing WordPress Themes by Thord Daniel Hedengren
+    
+*/
+
+.column {
+    width: 640px; /* Active content width 640px*/
+}
+.widecolumn {
+    width: 960px; /* Full width 960px */
+}
+div#footer-thumbs {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    background: #9e9e9e;
+}
+div#footer-thumbs ul {
+    float: left;
+    padding: 10px; /* 10px padding gives us 620px width */
+}
+div#footer-thumbs ul li {
+    float: left;
+    width: 155px; /* Width per thumbnail li block */
+    list-style: none;
+}
+div#footer-thumbs ul li img {
+    padding: 10px; /* Add more space between images */
+}
+img.alignleft {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+img.alignright {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+img.aligncenter {
+    margin: 0 auto 16px auto;
+}
+img.attachment-thumbnail {
+    padding: 10px;
+    border: 1px solid #bfbfbf !important;
+}
+.wp-caption {
+    padding: 10px 7px;
+    border: 1px solid #bfbfbf;
+    font-size: 12px;
+    color: #888;
+    font-style: italic;
+    text-align: center;
+}
+p.wp-caption-text {
+    margin: 10px 0 0 0;
+    padding: 0;
+    line-height: 14px;
+}
+div.gallery {
+    margin-bottom: 14px;
+}
+dl.gallery-item {
+    
+}
+dt.gallery-icon {
+    
+}
+img.attachment-thumbnail {
+    border: 0;
+}
+dd.gallery-caption {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #888;
+    font-style: italic;
+}
